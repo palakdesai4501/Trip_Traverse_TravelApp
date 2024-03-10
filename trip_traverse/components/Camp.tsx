@@ -1,4 +1,4 @@
-interface CampProps{
+interface CampProps {
   backgroundImage: string;
   title: string;
   subtitle: string;
@@ -11,7 +11,7 @@ const CampSite = ({
   subtitle,
   peopleJoined,
 }: CampProps) => {
-  return <div>Camp Site 1</div>;
+  return <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>Camp Site 1</div>;
 };
 
 const Camp = () => {
