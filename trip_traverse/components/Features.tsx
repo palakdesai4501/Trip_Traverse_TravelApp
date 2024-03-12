@@ -14,6 +14,12 @@ const Features = () => {
             className='feature-phone'
           />
         </div>
+
+        <div className='z-20 flex w-full flex-col lg:w-[60%]'>
+          <div className='relative'>
+
+          </div>
+        </div>
       </div>
     </section>
   )
