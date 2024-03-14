@@ -11,14 +11,14 @@ const GetApp = () => {
           <div>
             <Button 
               type="button"
-              title="Download App"
+              title="App Store"
               icon="/apple.svg"
               variant="btn_white"
               full
             />
             <Button 
               type="button"
-              title="Download App"
+              title="Play Store"
               icon="/android.svg"
               variant="btn_dark_green_outline"
               full
